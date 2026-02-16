@@ -6,123 +6,107 @@
 </head>
 <body>
     <header>
-        <h1>$ims|<span style="color: rgb(77, 77, 183);">stock investory<br> Magement System</span></h1>
+        <h1>$ims|<br><span style="color: rgb(77, 77, 183 ,);font-size:small;">stock investory Magement System</span></h1>
         
-    <h3 id="welcomeUser"></h3>
-    <input type="search" name="search product" placeholder="search product">
-
+    <h3 id="welcomeUser">hello🌙</h3>
+    <button onclick="logout()" class="dash">[-></button>
     </header>
     <section>
         <aside> 
             <ul>
-                <li><a href="">Dashboard</a></li><br><br>
-                <li><a href="">product</a></li><br><br>
-                <li><a href="">Report</a></li><br><br>
-                <li><a href="">setting</a></li><br><br>
+        <button class="fat">⏹️Dashboard</button><br><br><br>
+                <a href="product.html">©️product</a><br><br><br>
+                <a href="">®️Report</a><br><br><br>
+                <a href="">🟦setting</a><br><br><br><br>
             </ul>
         </aside>
         <main>
             <h1>Dashboard</h1>
-            <p>overviwe to ivestory product</p>
+            <p>overviwe to ivestory status</p><br><br>
             <div class="fab">
                 <div>
-                    <fieldset>
-                    <p>product mangement</p>
+                    <fieldset class="ifm">
+                    <p>Total products</p>
+                    <h1>248</h1>
+                    <p>12% per month</p>
                     </fieldset>
                 </div>
                 <div>
                     <fieldset>
-                    <p>product mangement</p>
+                        <p>in stock</p>
+                    <h1>205</h1>
+                    <p>82.7% of total</p>
                     </fieldset>
                 </div>
                  <div>
                     <fieldset>
-                    <p>product mangement</p>
+                        <p>cut of stock</p>
+                    <h1>43</h1>
+                    <p>12.3 of stock</p>
                     </fieldset>
                 </div>
-                 <div>
-                    <fieldset>
-                    <p>product mangement</p>
-                    </fieldset>
-                </div>
-                 <div>
-                    <fieldset>
-                    <p>product mangement</p>
-                    </fieldset>
-                </div>
-                 <div>
-                    <fieldset>
-                    <p>product mangement</p>
-                    </fieldset>
-                </div>
-                 <div>
-                    <fieldset>
-                    <p>product mangement</p>
-                    </fieldset>
-                </div>
-                 <div>
-                    <fieldset>
-                    <p>product mangement</p>
-                    </fieldset>
-                </div>
-                 <div>
-                    <fieldset>
-                    <p>product mangement</p>
-                    </fieldset>
-                </div>
-                 <div>
-                    <fieldset>
-                    <p>product mangement</p>
-                    </fieldset>
-                </div>
-                 <div>
-                    <fieldset>
-                    <p>product mangement</p>
-                    </fieldset>
-                </div>
-                 <div>
-                    <fieldset>
-                    <p>product mangement</p>
-                    </fieldset>
-                </div>
-                 <div>
-                    <fieldset>
-                    <p>product mangement</p>
-                    </fieldset>
-                </div>
-                 <div>
-                    <fieldset>
-                    <p>product mangement</p>
-                    </fieldset>
-                </div>
-                 <div>
-                    <fieldset>
-                    <p>product mangement</p>
-                    </fieldset>
-                </div>
-                 <div>
-                    <fieldset>
-                    <p>product mangement</p>
-                    </fieldset>
-                </div>
-                 <div>
-                    <fieldset>
-                    <p>product mangement</p>
-                    </fieldset>
-                </div>
+            </div>
+            <div class="data">
+                
+               <header>
+                <h1 class="ish">product</h1>
+            <input type="search" placeholder="search any thing        🔍">
+               </header>
+               <div>
+            <table class="mu">
+                <thead>
+                    <th>PRODUCT ID</th>
+                    <th>PRODUCT NAME</th>
+                    <th>CATEGORY</th>
+                    <th>QUANTINT</th>
+                    <th>PRICE</th>
+                    <th>STATUS</th>
+                </thead>
+                <tbody class="fabrice">
+                    
+                        <tr>
+                            <td>PRD1-001</td>
+                            <td>wireless keyboard</td>
+                            <td>Electronics</td>
+                            <td>45</td>
+                            <td>$49.99</td>
+                           <button> <td style="color: green;">in stock</td></button>
+                            
 
+
+                        </tr>
+                        
+                        <tr>
+                             <td>PRD1-002</td>
+                            <td>USB-C HUB Adapter</td>
+                            <td>Accessories</td>
+                            <td>0</td>
+                      <td>$29.99</td>
+                            <td style="color: brown;">out stock</td>
+                        </tr>
+                      </tbody>
+            </table>
+            </div>
+            </div>
+            <div>
+            
+
+<h1>📦 Product Dashboard</h1>
+
+<div class="top-bar">
+    <input type="text" id="search" placeholder="Search product..." onkeyup="searchProduct()">
+    <button onclick="addProduct()">🛒 Add Product</button>
+</div>
+
+<div class="products" id="productList"></div>
+
+<script src="da.js"></script>
             </div>
         </main>
     </section>
     <footer>
         &copy light by fabrice,contact:07868498736
     </footer>
-
-
-   
-
-    <button onclick="logout()">Logout</button>
-</div>
 
 <script src="script.js"></script>
 </body>

@@ -1,0 +1,12 @@
+fieldset{
+    padding: 34px;
+    width: 170px;
+    background-color: aliceblue;
+    height:40px;
+    border-radius:8px;
+}
+.ish{
+    justify-content:space-around;
+    flex-wrap:wrap;
+    display:flex;
+}

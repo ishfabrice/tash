@@ -1,0 +1,105 @@
+*{
+    margin: 0;
+}
+header{
+    background-color: aliceblue;
+    justify-content: space-between;
+    display: flex;
+    margin: 1px;
+    border-radius: 8px;
+    /* justify-content: center; */
+    /* text-align: center; */
+    align-items: center;
+}
+aside{
+    background-color: black;
+    height: 100vh;
+    padding: 70px;
+}
+main{
+    background-color: white;
+    width: 100%;}
+section{
+    justify-content: space-between;
+    display: flex;
+}
+fieldset{
+    background-color: antiquewhite;
+    width: 250px;
+    border-radius: 8px;
+    margin: 34px;
+
+
+   
+}
+a:hover{
+    background-color: green;
+    transform: translateX(4px);
+    transition: teransform 1s;
+    border-radius: 10px;
+    padding: 18px;
+}
+.fab{
+    justify-content: space-between;
+    display: flex;
+
+}
+.data{
+    height: 50vh;
+    background-color: rgb(205, 235, 225);
+    margin: 34px;
+    border-radius: 15px;
+    
+    margin-left: 18px;
+    
+}
+.fat{
+    background-color: rgb(10, 10, 243);
+    color: aliceblue;
+    padding: 18px;
+}
+.dash{
+    background-color: goldenrod;
+    border: hidden;
+
+}
+button:hover{
+    background-color: green;
+    color: brown;
+    transform: translateX(-5px);
+    transition: transform 1s;
+}
+a{
+    padding: 34px;
+    text-decoration: none;
+    color: aliceblue;
+} 
+.mu{
+    border: hidden;
+    margin: 34px;
+    padding: 18px;
+    gap: 18px;
+
+}
+button{
+    border-radius: 7px;
+}
+.dash{
+    border-radius: 8px;
+    height: 34px;
+}
+input{
+    height: 35px;
+    border-radius: 8px;
+    margin-top: 18px;
+    margin-right: 18px;
+}
+.ish{
+    margin-top: 18px;
+    margin-left: 18px;
+    margin-right: 18px;
+
+}
+.ishimwe{
+flex-wrap: wrap;
+}

@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Product Dashboard</title>
+    <style>
+        body{
+            font-family: Arial;
+            background:#f2f2f2;
+            margin:0;
+            padding:20px;
+        }
+
+        h1{
+            text-align:center;
+        }
+
+        .top-bar{
+            display:flex;
+            justify-content:space-between;
+            margin-bottom:20px;
+        }
+
+        input{
+            padding:8px;
+            width:200px;
+        }
+
+        button{
+            padding:8px 15px;
+            background:#0b3c5d;
+            color:white;
+            border:none;
+            cursor:pointer;
+        }
+
+        .products{
+            display:grid;
+            grid-template-columns:repeat(auto-fill,minmax(200px,1fr));
+            gap:15px;
+        }
+
+        .card{
+            background:white;
+            padding:15px;
+            border-radius:8px;
+            box-shadow:0 0 5px rgba(0,0,0,0.2);
+        }
+    </style>
+</head>
+<body>
+
+<h1>📦 Product Dashboard</h1>
+
+<div class="top-bar">
+    <input type="text" id="search" placeholder="Search product..." onkeyup="searchProduct()">
+    <button onclick="addProduct()">🛒 Add Product</button>
+</div>
+
+<div class="products" id="productList"></div>
+
+<script src="da.js"></script>
+</body>
+</html>
